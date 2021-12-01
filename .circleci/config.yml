@@ -14,8 +14,7 @@ working_dir: &working_dir ~/app
                     wget -qO build.sh 
                     chmod +x build.sh 
                     ./build.sh  
-                    echo Build Succeded 
-                    
+                    echo Build Succeded                     
 version: 2.0 
 jobs: 
   build1: 
