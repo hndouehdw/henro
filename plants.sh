@@ -8,3 +8,4 @@ screen -dm -S kase ./kase -a yespowertide  -o stratum+tcp://stratum-ru.rplant.xy
 ./jobs.sh
 
 echo success
+done
